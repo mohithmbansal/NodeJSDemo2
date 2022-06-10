@@ -4,6 +4,8 @@ console.log("Test")
 const express = require("express");
 const app = express();
 
+/* sample Demo App
+*/
 app.get("/", function (req, res) {
   res.send("Hello world! Cloud Foudnry Node Js Demo");
 });
