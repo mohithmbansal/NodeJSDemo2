@@ -1,0 +1,5 @@
+applications:
+  - name: mynodeappdemo
+    buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
+    host: mynodeappdemo
+    memory: 128M
